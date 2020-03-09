@@ -16,4 +16,4 @@ const assertEqual = function(actual, expected) {
 
 assertEqual([ 1, 2, 3 ], [ 1, 2, 3 ]);
 assertEqual([ 1, 2, 3 ], [ 1, 2, 7 ]);
-assertEqual([ 1, 2, 3 ], [ 1, 2, 3, 4 ]);
+assertEqual([ 1, 2, 3, 4 ], [ 1, 2, 3, 4 ]);
