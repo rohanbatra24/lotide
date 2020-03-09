@@ -28,8 +28,8 @@ const map = function(array, callback) {
   return results;
 };
 
-assertEqual(map(words, (word) => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
-assertEqual(map(birds, (bird) => bird[0]), []);
-assertEqual(map(durds, (durd) => durd[0]), [ 'h', 'h', 'b' ]);
+// assertEqual(map(words, (word) => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
+// assertEqual(map(birds, (bird) => bird[0]), []);
+// assertEqual(map(durds, (durd) => durd[0]), [ 'h', 'h', 'b' ]);
 
 module.exports = map;

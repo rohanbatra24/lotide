@@ -16,6 +16,6 @@ const obj = {
   Akelarre: { stars: 3 }
 };
 
-console.log(findKey(obj, (x) => x.stars === 9)); // => "noma"
+// console.log(findKey(obj, (x) => x.stars === 9)); // => "noma"
 
 module.exports = findKey;

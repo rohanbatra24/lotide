@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@rohan-batra/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/rohanbatra24/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rohan Batra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rohanbatra24/lotide/issues"
