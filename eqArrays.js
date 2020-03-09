@@ -7,4 +7,6 @@ const eqArrays = (arr1, arr2) => {
   return true;
 };
 
+console.log(eqArrays([ 3 ], [ 3, 4 ]));
+
 module.exports = eqArrays;
