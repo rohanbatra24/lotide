@@ -17,3 +17,5 @@ const obj = {
 };
 
 console.log(findKey(obj, (x) => x.stars === 9)); // => "noma"
+
+module.exports = findKey;

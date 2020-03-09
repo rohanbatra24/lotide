@@ -35,3 +35,5 @@ const letterPositions = function(sentence) {
 console.log(letterPositions('Lighthouse in the house'));
 
 assertArraysEqual(letterPositions('Lighthouseinthehouse').e, [ 9, 14, 19 ]);
+
+module.exports = letterPositions;

@@ -32,3 +32,5 @@ assertEqual(flatten([ 1, 2, 3, [ 4, 5, 6 ], 6, 7 ]), [ 1, 2, 3, 4, 5, 6, 6, 7 ])
 assertEqual(flatten([ 1, 2, 3, [ 4, 5, 6 ], 6, [ 7 ], [ 'a', 'g' ] ]), [ 1, 2, 3, 4, 5, 6, 6, 7, 'a', 'g' ]);
 assertEqual(flatten([ 1, 2, 3, [ 4, 5, 6 ], 6, 7 ]), [ 1, 2, 3, 4, 5, 6, 6, 7 ]);
 assertEqual(flatten([ 1, 2, 3, [ 4, 5, 6 ], 6, 7 ]), [ 1, 2, 3, 4, 5, 6, 6, 7 ]);
+
+module.exports = flatten;

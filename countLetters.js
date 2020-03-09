@@ -27,3 +27,5 @@ const result1 = countLetters('Lighthouse in the house');
 assertEqual(result1['h'], 4);
 assertEqual(result1['L'], 1);
 assertEqual(result1['s'], 2);
+
+module.exports = countLetters;
